@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASP NET MVC com Entity FrameWork", "ASP NET MVC com Entity FrameWork\ASP NET MVC com Entity FrameWork.vbproj", "{003E2859-1700-47F7-AD41-ADE1DD6F5BA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef", "ef\ef.csproj", "{11C5F628-7696-41B7-8172-64375AC462F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{AA72D167-4C9B-428E-9715-13AA908A934B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{003E2859-1700-47F7-AD41-ADE1DD6F5BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{003E2859-1700-47F7-AD41-ADE1DD6F5BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{003E2859-1700-47F7-AD41-ADE1DD6F5BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{003E2859-1700-47F7-AD41-ADE1DD6F5BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C5F628-7696-41B7-8172-64375AC462F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C5F628-7696-41B7-8172-64375AC462F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C5F628-7696-41B7-8172-64375AC462F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C5F628-7696-41B7-8172-64375AC462F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA72D167-4C9B-428E-9715-13AA908A934B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA72D167-4C9B-428E-9715-13AA908A934B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA72D167-4C9B-428E-9715-13AA908A934B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA72D167-4C9B-428E-9715-13AA908A934B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

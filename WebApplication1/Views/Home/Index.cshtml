@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+    var contas = ViewBag.contas;
+
+    ViewBag.jquery = "/Scripts/meuJavaScript.js";
+}
+
+@model ef.Conta
+
+
+<table>
+    <tr style="visibility:hidden">
+        <td>@Html.LabelFor(model => model.Id)</td>
+        <td>@Html.TextBoxFor(model => model.Id, new { Id = "formId" })</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Description)</td>
+        <td>@Html.TextBoxFor(model => model.Description, new { Id = "formDescription" })</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Value)</td>
+        <td>@Html.TextBoxFor(model => model.Value, new { Id = "formValue" })</td>
+    </tr>
+    <tr>
+        <td>@Html.LabelFor(model => model.Date)</td>
+        <td>@Html.TextBoxFor(model => model.Date, new { Type = "date", Id = "formDate" })</td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="submit" value="Submit" id="btnAddAccount"></td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Update" id="btnUpdateAccount"></td>
+        <td><input type="submit" value="Delete" id="btnDeleteAccount"></td>
+    </tr>
+</table>
+
+<button id="btnSearchAccount">Search Accounts</button>
+
+<table id="tbData"></table>
